@@ -1208,7 +1208,7 @@
           </svg>
         </a>
       </div>
-      <p>&copy; 2024 Sweetheart. All rights reserved.</p>
+      <p>&copy; 2025 Sweetheart. All rights reserved.</p>
     </footer>
 
     <!-- Chatbot -->
@@ -1376,6 +1376,14 @@
         ) {
           response =
             "Check out my social feeds above - Instagram, TikTok, YouTube, and X. That's where I showcase all my work!";
+        } else if (
+          lowerMessage.includes("tell her she is the best") ||
+          lowerMessage.includes("tell her she's the best") ||
+          lowerMessage.includes("proud of her") ||
+          lowerMessage.includes("we are going to build this")
+        ) {
+          response =
+            "Awww, that's so sweet! 🥺💕 I'll definitely make sure she gets your message. She's incredibly lucky to have someone cheering her on like this! You two are going to absolutely crush it together - I can feel the magic already! ✨ Keep building, keep believing! 🚀";
         } else if (
           lowerMessage.includes("price") ||
           lowerMessage.includes("cost")
